@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --white:#ffffff;
+  --p-principal: 'Roboto', sans-serif;
+}
+
+body {
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.background1 {
+  background: url(/img/mountains-universe-1.png) no-repeat ;
+}
+
+.background2 {
+  background: url(/img/mountains-universe02.png) no-repeat ;
+}
+
+.background3 {
+  background: url(/img/mountains-universe-3.png) no-repeat ;
+}
+
+
+/* Navigation and icon */
+.list-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 4rem 7.2rem;
+  gap: 4.3rem;
+}
+
+.list-wrapper nav {
+  display: flex;
+  gap: 4.2rem;
+  
+}
+
+.list-wrapper nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-family: var(--p-principal);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+.list-wrapper nav a:focus {
+  opacity: 1;
+}
+
+/* HOME */
+
+.home-wrapper {
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29.4rem;
+}
+
+.home-wrapper h1{
+  
+  font-family: var(--p-principal);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-bottom:2.4rem;
+}
+
+.home-wrapper button {
+  font-family: var(--p-principal);
+  color: var(--white);
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  padding: 1.2rem 3.2rem;
+  background: transparent ;
+}
+
+.home-wrapper button:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: #02799D;
+}
+
+/* UNIVERSE */
+.universe-wrapper {
+  font-family: var(--p-principal);
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 18.5rem;
+  gap: 1.6rem;
+  width: 78rem;
+  height: 20.3rem;
+}
+
+.universe-wrapper h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-left: 10.2rem;
+}
+
+.universe-wrapper p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  margin: 0 53.0px 0 10.2rem;
+}
+
+/* EXPLORATION */
+.exploration-wrapper {
+  font-family: var(--p-principal);
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 18.5rem;
+  gap: 1.6rem;
+  width: 78rem;
+  height: 20.3rem;
+}
+
+.exploration-wrapper h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-left: 10.2rem;
+}
+
+.exploration-wrapper p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  margin: 0 53.0px 0 10.2rem;
+}
